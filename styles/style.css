@@ -100,7 +100,7 @@ main {
 }
 
 .arrows {
-  width: 100%;
+  width: 300px;
   display: flex;
   align-items: center;
   gap: 10px;
