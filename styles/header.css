@@ -1,7 +1,4 @@
 header {
-  /* position: absolute;
-  top: 0;
-  left: 0; */
   width: 100%;
   display: flex;
   align-items: center;
@@ -27,4 +24,5 @@ header {
 .header-icon {
   font-size: 20px;
   color: var(--black);
+  cursor: pointer;
 }

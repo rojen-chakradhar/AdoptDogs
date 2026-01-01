@@ -41,6 +41,11 @@ main {
   background-color: olive;
   overflow: hidden;
   box-shadow: 0 0 5px var(--fade);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  &:hover{
+    transform: translateY(-5px);
+  }
 }
 
 .dog {
@@ -110,6 +115,11 @@ main {
   text-align: center;
   border-radius: 10px;
   color: var(--white);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  &:hover{
+    transform: translateY(-2px);
+  }
 }
 
 .skip {
