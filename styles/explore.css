@@ -83,3 +83,9 @@ main {
 	color: var(--white);
 	background-color: var(--orange);
 }
+
+@media (min-width: 600px) {
+	.cards {
+  	margin: 0 auto;
+	}
+}

@@ -66,12 +66,24 @@ details {
     padding: 5px 10px;
     border-radius: 5px;
     box-shadow: 0 0 5px var(--fade);
+    color: var(--black);
     background-color: var(--white);
     z-index: 8888;
     li{
       display: flex;
       align-items: center;
       gap: 5px;
+      cursor: pointer;
+    }
+  }
+}
+
+@media (min-width: 321px) {
+  .notification {
+    left: 50%;
+    transform: translateX(-50%);
+    img {
+      width: 100%;
     }
   }
 }

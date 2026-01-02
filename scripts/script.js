@@ -38,6 +38,6 @@ function save() {
 		toast.style.right = "10px";
 	}, 500);
 	setTimeout(() => {
-		toast.style.right = "-500px";
+		toast.style.right = "-100vw";
 	}, 3000);
 }
