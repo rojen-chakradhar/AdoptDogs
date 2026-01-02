@@ -26,3 +26,34 @@ header {
   color: var(--black);
   cursor: pointer;
 }
+
+.overlay {
+  position: absolute;
+  height: 100dvh;
+  width: 100vw;
+  display: none;
+  z-index: 8888;
+}
+
+.notification {
+  position: absolute;
+  top: 55px;
+  left: 10px;
+  height: 400px;
+  width: 300px;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 10px;
+  box-shadow: 0 0 5px var(--fade);
+  color: var(--orange);
+  background-color: var(--white);
+  z-index: 99999;
+  img {
+    mix-blend-mode: multiply;
+  }
+}

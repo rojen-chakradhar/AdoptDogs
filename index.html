@@ -20,7 +20,7 @@
       <header>
         <img src="./assets/images/white-logo.png" alt="logo of the app" class="logo">
         <ul class="header-icons">
-          <li>
+          <li onclick="show()">
             <i class="header-icon ri-notification-line"></i>
           </li>
           <li>
@@ -28,6 +28,12 @@
           </li>
         </ul>
       </header>
+      <section class="overlay" id="overlay" onclick="hide()">
+      </section>
+      <section class="notification" id="notification">
+        <img src="https://cdn.dribbble.com/userupload/30865715/file/still-c5b138689c0a82c4b8adf86b10b5f01c.png?format=webp&resize=400x300&vertical=center" alt="image of dog">
+        <p>Sorry. No Notification.</p>
+      </section>
       <main class="hero">
         <section class="cards">
           <article class="card">
